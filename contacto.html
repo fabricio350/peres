@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Vengadores - Contacto</title>
+    <style>
+        .color{
+            background-color: seagreen;
+        }
+    </style>
+</head>
+<body class="color">
+    <nav><a href="/">Inicio</a> <a href="personajes.html">Personajes</a> <a href="/comics.html">comics</a> <a href="contacto.html">contacto</a> 
+        
+    </nav>
+    <h1>Contacto</h1>
+    <form action="/">
+        <h2>Para contactarte con nosotros, necesitas colocar los siguientes datos:</h2>
+        <div>
+          <label for ="name" name="name">Nombre</label>
+          <input type="text" id name="name "name="name" required>
+          <label for="lastname">Apellido</label>
+          <input type="text" id="lastname" name="lastname" required>
+          <label for="tel" id tel="tel" tel="tel">Teléfono</label required>
+          <input type="tel" required>
+        </div>
+        <div>
+            <p>¿Cuál es tu motivo de contacto?</p>
+            <label for ="error">Error de página</label>
+            <input type="radio" name="usuario" value="error">
+            <label for ="creador">Quiero saber más sobre el creador</label>
+            <input type="radio" name="usuario" value="creador">
+            <label for="otro">Otro</label>
+            <input type="text" id="otro" name="otro">
+            <input type="radio" name="usuario" value="otro">
+            <input type="submit">Enviar Datos </input>
+        </div>
+    </form>
+</body>
+</html>
